@@ -19,6 +19,7 @@ Data Source → PySpark Pipeline → MLflow Training → FastAPI Serving
 |-----------|------|---------|
 | Orchestration | Apache Airflow | 2.8.4 |
 | Data Processing | Apache Spark | 3.5.1 |
+| Stream Ingestion | Apache Kafka | 3.7.0 |
 | Experiment Tracking | MLflow | 2.12.1 |
 | Model Serving | FastAPI | 0.110.0 |
 | Versioning | DVC | 3.49.0 |
