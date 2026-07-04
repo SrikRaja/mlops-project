@@ -1,5 +1,5 @@
 {
-  "name": "MLOps Project",
+  "name": "MLOps Complete Environment",
   "image": "mcr.microsoft.com/devcontainers/python:3.9",
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {},
@@ -8,24 +8,30 @@
     }
   },
   "postCreateCommand": "bash .devcontainer/setup.sh",
-  "forwardPorts": [8080, 5000, 8000, 4040, 9090],
+  "forwardPorts": [8080, 5000, 8000, 4040, 9090, 9092, 2181],
   "portsAttributes": {
-    "8080": {"label": "Airflow UI"},
-    "5000": {"label": "MLflow UI"},
-    "8000": {"label": "FastAPI"},
-    "4040": {"label": "Spark UI"},
-    "9090": {"label": "Prometheus"}
+    "8080": {"label": "Airflow UI", "onAutoForward": "notify"},
+    "5000": {"label": "MLflow UI", "onAutoForward": "notify"},
+    "8000": {"label": "FastAPI", "onAutoForward": "notify"},
+    "4040": {"label": "Spark UI", "onAutoForward": "notify"},
+    "9090": {"label": "Prometheus", "onAutoForward": "notify"},
+    "9092": {"label": "Kafka Broker", "onAutoForward": "silent"},
+    "2181": {"label": "Zookeeper", "onAutoForward": "silent"}
   },
   "customizations": {
     "vscode": {
       "extensions": [
         "ms-python.python",
         "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "redhat.vscode-yaml",
         "mtxr.sqltools",
-        "redhat.vscode-yaml"
+        "ms-azuretools.vscode-docker"
       ],
       "settings": {
-        "python.defaultInterpreterPath": "/usr/local/bin/python"
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "editor.formatOnSave": true,
+        "python.formatting.provider": "black"
       }
     }
   },
@@ -34,6 +40,10 @@
     "AIRFLOW__CORE__EXECUTOR": "LocalExecutor",
     "AIRFLOW__DATABASE__SQL_ALCHEMY_CONN": "sqlite:////workspaces/mlops-project/airflow/airflow.db",
     "AIRFLOW__CORE__LOAD_EXAMPLES": "False",
-    "MLFLOW_TRACKING_URI": "http://localhost:5000"
+    "AIRFLOW__WEBSERVER__SECRET_KEY": "mlops-secret-key-2026",
+    "MLFLOW_TRACKING_URI": "http://localhost:5000",
+    "KAFKA_HOME": "/opt/kafka",
+    "JAVA_HOME": "/usr/lib/jvm/default-java",
+    "SPARK_HOME": "/usr/local/lib/python3.9/dist-packages/pyspark"
   }
 }
