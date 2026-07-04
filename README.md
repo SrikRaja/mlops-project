@@ -5,13 +5,16 @@ End-to-end MLOps pipeline for Customer Churn Prediction using Apache Airflow, Py
 
 ## Architecture
 ```
-Data Source → PySpark Pipeline → MLflow Training → FastAPI Serving
-                    ↓                                      ↓
-              Apache Airflow                         Prometheus
-              (Orchestration)                        (Monitoring)
-                    ↓
-                  DVC
-              (Versioning)
+## Architecture
+```
+Data Source → Kafka → Spark Streaming → PySpark Pipeline → MLflow Training → FastAPI Serving
+                                              ↓                                      ↓
+                                       Apache Airflow                          Prometheus
+                                       (Orchestration)                         (Monitoring)
+                                              ↓
+                                            DVC
+                                         (Versioning)
+```
 ```
 
 ## Tech Stack
