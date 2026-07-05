@@ -73,3 +73,10 @@ logs/
 spark-warehouse/
 derby.log
 metastore_db/
+
+# Runtime/generated artifacts - not part of the assignment deliverable
+airflow/
+checkpoints/
+output/
+*.pyc
+__pycache__/

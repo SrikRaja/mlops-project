@@ -1,0 +1,139 @@
+{
+  "1": {
+    "producer_metrics": {
+      "topic": "sensor_da25m624",
+      "records_published": 3000,
+      "elapsed_seconds": 30.957250833511353,
+      "producer_throughput_rps": 96.90782996636405,
+      "timestamp": "2026-07-05T15:56:55.755773+00:00"
+    },
+    "partition_assignment": {
+      "0": [
+        0,
+        1,
+        2
+      ]
+    },
+    "per_consumer": {
+      "0": {
+        "count": 3000,
+        "partitions": {
+          "2": 1476,
+          "0": 1524
+        },
+        "elapsed_sec": 15.181560277938843,
+        "assigned_partitions": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "total_consumed": 3000,
+    "elapsed_sec": 15.286319971084595,
+    "consumer_throughput_rps": 196.25390582394985
+  },
+  "2": {
+    "producer_metrics": {
+      "topic": "sensor_da25m624",
+      "records_published": 3000,
+      "elapsed_seconds": 30.99260449409485,
+      "producer_throughput_rps": 96.79728596451461,
+      "timestamp": "2026-07-05T15:57:47.522024+00:00"
+    },
+    "partition_assignment": {
+      "0": [
+        0,
+        2
+      ],
+      "1": [
+        1
+      ]
+    },
+    "per_consumer": {
+      "1": {
+        "count": 0,
+        "partitions": {},
+        "elapsed_sec": 15.001638650894165,
+        "assigned_partitions": [
+          1
+        ]
+      },
+      "0": {
+        "count": 3000,
+        "partitions": {
+          "0": 1534,
+          "2": 1466
+        },
+        "elapsed_sec": 15.172816276550293,
+        "assigned_partitions": [
+          0,
+          2
+        ]
+      }
+    },
+    "total_consumed": 3000,
+    "elapsed_sec": 15.283129692077637,
+    "consumer_throughput_rps": 196.29487287247974
+  },
+  "4": {
+    "producer_metrics": {
+      "topic": "sensor_da25m624",
+      "records_published": 3000,
+      "elapsed_seconds": 30.98934817314148,
+      "producer_throughput_rps": 96.80745729915368,
+      "timestamp": "2026-07-05T15:58:39.411055+00:00"
+    },
+    "partition_assignment": {
+      "0": [
+        0
+      ],
+      "1": [
+        1
+      ],
+      "2": [
+        2
+      ],
+      "3": []
+    },
+    "per_consumer": {
+      "3": {
+        "count": 0,
+        "partitions": {},
+        "elapsed_sec": 0.0,
+        "assigned_partitions": []
+      },
+      "1": {
+        "count": 0,
+        "partitions": {},
+        "elapsed_sec": 15.001065015792847,
+        "assigned_partitions": [
+          1
+        ]
+      },
+      "0": {
+        "count": 1470,
+        "partitions": {
+          "0": 1470
+        },
+        "elapsed_sec": 15.184789896011353,
+        "assigned_partitions": [
+          0
+        ]
+      },
+      "2": {
+        "count": 1530,
+        "partitions": {
+          "2": 1530
+        },
+        "elapsed_sec": 15.192115068435669,
+        "assigned_partitions": [
+          2
+        ]
+      }
+    },
+    "total_consumed": 3000,
+    "elapsed_sec": 15.298913478851318,
+    "consumer_throughput_rps": 196.09235676423
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "per_sensor_avg_max_temperature": {
+    "sensor_9": {
+      "avg_temperature": 25.515,
+      "max_temperature": 34.93,
+      "readings": 144
+    },
+    "sensor_3": {
+      "avg_temperature": 24.849,
+      "max_temperature": 34.94,
+      "readings": 155
+    },
+    "sensor_10": {
+      "avg_temperature": 25.297,
+      "max_temperature": 34.92,
+      "readings": 144
+    },
+    "sensor_4": {
+      "avg_temperature": 24.39,
+      "max_temperature": 34.9,
+      "readings": 144
+    },
+    "sensor_2": {
+      "avg_temperature": 24.391,
+      "max_temperature": 34.98,
+      "readings": 143
+    },
+    "sensor_7": {
+      "avg_temperature": 25.184,
+      "max_temperature": 34.85,
+      "readings": 140
+    },
+    "sensor_6": {
+      "avg_temperature": 25.544,
+      "max_temperature": 34.84,
+      "readings": 147
+    },
+    "sensor_5": {
+      "avg_temperature": 25.062,
+      "max_temperature": 34.82,
+      "readings": 155
+    },
+    "sensor_8": {
+      "avg_temperature": 25.008,
+      "max_temperature": 34.72,
+      "readings": 143
+    },
+    "sensor_1": {
+      "avg_temperature": 26.436,
+      "max_temperature": 34.89,
+      "readings": 148
+    }
+  },
+  "active_sensor_count": 10,
+  "active_sensors": [
+    "sensor_1",
+    "sensor_10",
+    "sensor_2",
+    "sensor_3",
+    "sensor_4",
+    "sensor_5",
+    "sensor_6",
+    "sensor_7",
+    "sensor_8",
+    "sensor_9"
+  ],
+  "status_distribution": {
+    "active": 1041,
+    "maintenance": 71,
+    "error": 119,
+    "idle": 232
+  }
+}

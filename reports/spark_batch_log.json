@@ -1,0 +1,1359 @@
+[
+  {
+    "batch_id": 0,
+    "raw_rows": 12,
+    "cleaned_rows": 7,
+    "batch_duration_sec": 20.907,
+    "running_totals": {
+      "missing_corrected": 0,
+      "duplicates_removed": 5,
+      "invalid_removed": 0,
+      "dropped_insufficient_history": 0,
+      "late_accepted": 0
+    },
+    "analytics": {
+      "per_sensor_avg_max_temperature": {
+        "sensor_9": {
+          "avg_temperature": 24.09,
+          "max_temperature": 24.09,
+          "readings": 1
+        },
+        "sensor_3": {
+          "avg_temperature": 23.88,
+          "max_temperature": 23.88,
+          "readings": 1
+        },
+        "sensor_10": {
+          "avg_temperature": 19.08,
+          "max_temperature": 19.08,
+          "readings": 1
+        },
+        "sensor_4": {
+          "avg_temperature": 33.92,
+          "max_temperature": 33.92,
+          "readings": 1
+        },
+        "sensor_2": {
+          "avg_temperature": 29.28,
+          "max_temperature": 29.28,
+          "readings": 1
+        },
+        "sensor_7": {
+          "avg_temperature": 25.51,
+          "max_temperature": 25.51,
+          "readings": 1
+        },
+        "sensor_6": {
+          "avg_temperature": 33.91,
+          "max_temperature": 33.91,
+          "readings": 1
+        }
+      },
+      "active_sensor_count": 7,
+      "active_sensors": [
+        "sensor_10",
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_6",
+        "sensor_7",
+        "sensor_9"
+      ],
+      "status_distribution": {
+        "active": 4,
+        "maintenance": 2,
+        "error": 1
+      }
+    }
+  },
+  {
+    "batch_id": 1,
+    "raw_rows": 577,
+    "cleaned_rows": 153,
+    "batch_duration_sec": 3.707,
+    "running_totals": {
+      "missing_corrected": 6,
+      "duplicates_removed": 422,
+      "invalid_removed": 7,
+      "dropped_insufficient_history": 0,
+      "late_accepted": 0
+    },
+    "analytics": {
+      "per_sensor_avg_max_temperature": {
+        "sensor_9": {
+          "avg_temperature": 24.913,
+          "max_temperature": 33.4,
+          "readings": 17
+        },
+        "sensor_3": {
+          "avg_temperature": 24.251,
+          "max_temperature": 31.76,
+          "readings": 15
+        },
+        "sensor_10": {
+          "avg_temperature": 25.471,
+          "max_temperature": 33.91,
+          "readings": 17
+        },
+        "sensor_4": {
+          "avg_temperature": 25.006,
+          "max_temperature": 34.59,
+          "readings": 16
+        },
+        "sensor_2": {
+          "avg_temperature": 25.098,
+          "max_temperature": 31.94,
+          "readings": 16
+        },
+        "sensor_7": {
+          "avg_temperature": 24.217,
+          "max_temperature": 33.59,
+          "readings": 16
+        },
+        "sensor_6": {
+          "avg_temperature": 27.519,
+          "max_temperature": 34.84,
+          "readings": 15
+        },
+        "sensor_5": {
+          "avg_temperature": 24.723,
+          "max_temperature": 34.82,
+          "readings": 16
+        },
+        "sensor_8": {
+          "avg_temperature": 25.723,
+          "max_temperature": 34.42,
+          "readings": 16
+        },
+        "sensor_1": {
+          "avg_temperature": 27.082,
+          "max_temperature": 33.31,
+          "readings": 16
+        }
+      },
+      "active_sensor_count": 10,
+      "active_sensors": [
+        "sensor_1",
+        "sensor_10",
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_5",
+        "sensor_6",
+        "sensor_7",
+        "sensor_8",
+        "sensor_9"
+      ],
+      "status_distribution": {
+        "active": 109,
+        "maintenance": 11,
+        "error": 18,
+        "idle": 22
+      }
+    }
+  },
+  {
+    "batch_id": 2,
+    "raw_rows": 181,
+    "cleaned_rows": 43,
+    "batch_duration_sec": 1.79,
+    "running_totals": {
+      "missing_corrected": 6,
+      "duplicates_removed": 558,
+      "invalid_removed": 9,
+      "dropped_insufficient_history": 0,
+      "late_accepted": 0
+    },
+    "analytics": {
+      "per_sensor_avg_max_temperature": {
+        "sensor_9": {
+          "avg_temperature": 24.207,
+          "max_temperature": 34.51,
+          "readings": 22
+        },
+        "sensor_3": {
+          "avg_temperature": 24.035,
+          "max_temperature": 31.76,
+          "readings": 19
+        },
+        "sensor_10": {
+          "avg_temperature": 25.77,
+          "max_temperature": 34.32,
+          "readings": 23
+        },
+        "sensor_4": {
+          "avg_temperature": 25.331,
+          "max_temperature": 34.59,
+          "readings": 21
+        },
+        "sensor_2": {
+          "avg_temperature": 25.698,
+          "max_temperature": 31.94,
+          "readings": 20
+        },
+        "sensor_7": {
+          "avg_temperature": 24.184,
+          "max_temperature": 33.59,
+          "readings": 19
+        },
+        "sensor_6": {
+          "avg_temperature": 26.828,
+          "max_temperature": 34.84,
+          "readings": 19
+        },
+        "sensor_5": {
+          "avg_temperature": 24.893,
+          "max_temperature": 34.82,
+          "readings": 20
+        },
+        "sensor_8": {
+          "avg_temperature": 25.665,
+          "max_temperature": 34.42,
+          "readings": 20
+        },
+        "sensor_1": {
+          "avg_temperature": 26.879,
+          "max_temperature": 33.31,
+          "readings": 20
+        }
+      },
+      "active_sensor_count": 10,
+      "active_sensors": [
+        "sensor_1",
+        "sensor_10",
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_5",
+        "sensor_6",
+        "sensor_7",
+        "sensor_8",
+        "sensor_9"
+      ],
+      "status_distribution": {
+        "active": 138,
+        "maintenance": 13,
+        "error": 24,
+        "idle": 28
+      }
+    }
+  },
+  {
+    "batch_id": 3,
+    "raw_rows": 455,
+    "cleaned_rows": 112,
+    "batch_duration_sec": 1.921,
+    "running_totals": {
+      "missing_corrected": 13,
+      "duplicates_removed": 898,
+      "invalid_removed": 12,
+      "dropped_insufficient_history": 0,
+      "late_accepted": 0
+    },
+    "analytics": {
+      "per_sensor_avg_max_temperature": {
+        "sensor_9": {
+          "avg_temperature": 25.026,
+          "max_temperature": 34.93,
+          "readings": 34
+        },
+        "sensor_3": {
+          "avg_temperature": 24.268,
+          "max_temperature": 33.25,
+          "readings": 31
+        },
+        "sensor_10": {
+          "avg_temperature": 25.942,
+          "max_temperature": 34.32,
+          "readings": 33
+        },
+        "sensor_4": {
+          "avg_temperature": 25.78,
+          "max_temperature": 34.9,
+          "readings": 32
+        },
+        "sensor_2": {
+          "avg_temperature": 24.298,
+          "max_temperature": 32.73,
+          "readings": 30
+        },
+        "sensor_7": {
+          "avg_temperature": 25.629,
+          "max_temperature": 34.58,
+          "readings": 29
+        },
+        "sensor_6": {
+          "avg_temperature": 25.312,
+          "max_temperature": 34.84,
+          "readings": 30
+        },
+        "sensor_5": {
+          "avg_temperature": 24.834,
+          "max_temperature": 34.82,
+          "readings": 32
+        },
+        "sensor_8": {
+          "avg_temperature": 25.485,
+          "max_temperature": 34.52,
+          "readings": 31
+        },
+        "sensor_1": {
+          "avg_temperature": 26.949,
+          "max_temperature": 34.33,
+          "readings": 33
+        }
+      },
+      "active_sensor_count": 10,
+      "active_sensors": [
+        "sensor_1",
+        "sensor_10",
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_5",
+        "sensor_6",
+        "sensor_7",
+        "sensor_8",
+        "sensor_9"
+      ],
+      "status_distribution": {
+        "active": 217,
+        "maintenance": 18,
+        "error": 31,
+        "idle": 49
+      }
+    }
+  },
+  {
+    "batch_id": 4,
+    "raw_rows": 314,
+    "cleaned_rows": 89,
+    "batch_duration_sec": 2.106,
+    "running_totals": {
+      "missing_corrected": 16,
+      "duplicates_removed": 1122,
+      "invalid_removed": 13,
+      "dropped_insufficient_history": 0,
+      "late_accepted": 0
+    },
+    "analytics": {
+      "per_sensor_avg_max_temperature": {
+        "sensor_9": {
+          "avg_temperature": 25.008,
+          "max_temperature": 34.93,
+          "readings": 43
+        },
+        "sensor_3": {
+          "avg_temperature": 24.709,
+          "max_temperature": 34.63,
+          "readings": 41
+        },
+        "sensor_10": {
+          "avg_temperature": 26.569,
+          "max_temperature": 34.84,
+          "readings": 42
+        },
+        "sensor_4": {
+          "avg_temperature": 25.653,
+          "max_temperature": 34.9,
+          "readings": 41
+        },
+        "sensor_2": {
+          "avg_temperature": 24.425,
+          "max_temperature": 32.73,
+          "readings": 40
+        },
+        "sensor_7": {
+          "avg_temperature": 25.264,
+          "max_temperature": 34.58,
+          "readings": 35
+        },
+        "sensor_6": {
+          "avg_temperature": 24.946,
+          "max_temperature": 34.84,
+          "readings": 39
+        },
+        "sensor_5": {
+          "avg_temperature": 25.116,
+          "max_temperature": 34.82,
+          "readings": 42
+        },
+        "sensor_8": {
+          "avg_temperature": 25.616,
+          "max_temperature": 34.52,
+          "readings": 40
+        },
+        "sensor_1": {
+          "avg_temperature": 26.904,
+          "max_temperature": 34.77,
+          "readings": 41
+        }
+      },
+      "active_sensor_count": 10,
+      "active_sensors": [
+        "sensor_1",
+        "sensor_10",
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_5",
+        "sensor_6",
+        "sensor_7",
+        "sensor_8",
+        "sensor_9"
+      ],
+      "status_distribution": {
+        "active": 278,
+        "maintenance": 25,
+        "error": 36,
+        "idle": 65
+      }
+    }
+  },
+  {
+    "batch_id": 5,
+    "raw_rows": 350,
+    "cleaned_rows": 86,
+    "batch_duration_sec": 1.323,
+    "running_totals": {
+      "missing_corrected": 19,
+      "duplicates_removed": 1383,
+      "invalid_removed": 16,
+      "dropped_insufficient_history": 0,
+      "late_accepted": 0
+    },
+    "analytics": {
+      "per_sensor_avg_max_temperature": {
+        "sensor_9": {
+          "avg_temperature": 25.342,
+          "max_temperature": 34.93,
+          "readings": 53
+        },
+        "sensor_3": {
+          "avg_temperature": 25.271,
+          "max_temperature": 34.94,
+          "readings": 51
+        },
+        "sensor_10": {
+          "avg_temperature": 26.169,
+          "max_temperature": 34.84,
+          "readings": 50
+        },
+        "sensor_4": {
+          "avg_temperature": 24.699,
+          "max_temperature": 34.9,
+          "readings": 49
+        },
+        "sensor_2": {
+          "avg_temperature": 24.349,
+          "max_temperature": 34.08,
+          "readings": 47
+        },
+        "sensor_7": {
+          "avg_temperature": 25.328,
+          "max_temperature": 34.58,
+          "readings": 44
+        },
+        "sensor_6": {
+          "avg_temperature": 24.736,
+          "max_temperature": 34.84,
+          "readings": 48
+        },
+        "sensor_5": {
+          "avg_temperature": 24.68,
+          "max_temperature": 34.82,
+          "readings": 51
+        },
+        "sensor_8": {
+          "avg_temperature": 25.755,
+          "max_temperature": 34.52,
+          "readings": 49
+        },
+        "sensor_1": {
+          "avg_temperature": 26.754,
+          "max_temperature": 34.77,
+          "readings": 48
+        }
+      },
+      "active_sensor_count": 10,
+      "active_sensors": [
+        "sensor_1",
+        "sensor_10",
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_5",
+        "sensor_6",
+        "sensor_7",
+        "sensor_8",
+        "sensor_9"
+      ],
+      "status_distribution": {
+        "active": 336,
+        "maintenance": 33,
+        "error": 45,
+        "idle": 76
+      }
+    }
+  },
+  {
+    "batch_id": 6,
+    "raw_rows": 458,
+    "cleaned_rows": 114,
+    "batch_duration_sec": 0.961,
+    "running_totals": {
+      "missing_corrected": 20,
+      "duplicates_removed": 1725,
+      "invalid_removed": 18,
+      "dropped_insufficient_history": 0,
+      "late_accepted": 0
+    },
+    "analytics": {
+      "per_sensor_avg_max_temperature": {
+        "sensor_9": {
+          "avg_temperature": 24.602,
+          "max_temperature": 34.93,
+          "readings": 64
+        },
+        "sensor_3": {
+          "avg_temperature": 24.914,
+          "max_temperature": 34.94,
+          "readings": 62
+        },
+        "sensor_10": {
+          "avg_temperature": 25.755,
+          "max_temperature": 34.84,
+          "readings": 61
+        },
+        "sensor_4": {
+          "avg_temperature": 24.462,
+          "max_temperature": 34.9,
+          "readings": 60
+        },
+        "sensor_2": {
+          "avg_temperature": 23.997,
+          "max_temperature": 34.08,
+          "readings": 58
+        },
+        "sensor_7": {
+          "avg_temperature": 25.291,
+          "max_temperature": 34.58,
+          "readings": 57
+        },
+        "sensor_6": {
+          "avg_temperature": 25.456,
+          "max_temperature": 34.84,
+          "readings": 59
+        },
+        "sensor_5": {
+          "avg_temperature": 25.11,
+          "max_temperature": 34.82,
+          "readings": 65
+        },
+        "sensor_8": {
+          "avg_temperature": 25.679,
+          "max_temperature": 34.52,
+          "readings": 61
+        },
+        "sensor_1": {
+          "avg_temperature": 26.831,
+          "max_temperature": 34.77,
+          "readings": 57
+        }
+      },
+      "active_sensor_count": 10,
+      "active_sensors": [
+        "sensor_1",
+        "sensor_10",
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_5",
+        "sensor_6",
+        "sensor_7",
+        "sensor_8",
+        "sensor_9"
+      ],
+      "status_distribution": {
+        "active": 422,
+        "maintenance": 36,
+        "error": 49,
+        "idle": 97
+      }
+    }
+  },
+  {
+    "batch_id": 7,
+    "raw_rows": 392,
+    "cleaned_rows": 96,
+    "batch_duration_sec": 1.799,
+    "running_totals": {
+      "missing_corrected": 23,
+      "duplicates_removed": 2020,
+      "invalid_removed": 19,
+      "dropped_insufficient_history": 0,
+      "late_accepted": 0
+    },
+    "analytics": {
+      "per_sensor_avg_max_temperature": {
+        "sensor_9": {
+          "avg_temperature": 24.935,
+          "max_temperature": 34.93,
+          "readings": 74
+        },
+        "sensor_3": {
+          "avg_temperature": 24.955,
+          "max_temperature": 34.94,
+          "readings": 72
+        },
+        "sensor_10": {
+          "avg_temperature": 26.076,
+          "max_temperature": 34.84,
+          "readings": 71
+        },
+        "sensor_4": {
+          "avg_temperature": 23.906,
+          "max_temperature": 34.9,
+          "readings": 69
+        },
+        "sensor_2": {
+          "avg_temperature": 23.834,
+          "max_temperature": 34.08,
+          "readings": 67
+        },
+        "sensor_7": {
+          "avg_temperature": 25.182,
+          "max_temperature": 34.58,
+          "readings": 67
+        },
+        "sensor_6": {
+          "avg_temperature": 25.063,
+          "max_temperature": 34.84,
+          "readings": 68
+        },
+        "sensor_5": {
+          "avg_temperature": 25.055,
+          "max_temperature": 34.82,
+          "readings": 75
+        },
+        "sensor_8": {
+          "avg_temperature": 25.576,
+          "max_temperature": 34.52,
+          "readings": 69
+        },
+        "sensor_1": {
+          "avg_temperature": 26.699,
+          "max_temperature": 34.77,
+          "readings": 68
+        }
+      },
+      "active_sensor_count": 10,
+      "active_sensors": [
+        "sensor_1",
+        "sensor_10",
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_5",
+        "sensor_6",
+        "sensor_7",
+        "sensor_8",
+        "sensor_9"
+      ],
+      "status_distribution": {
+        "active": 498,
+        "maintenance": 38,
+        "error": 56,
+        "idle": 108
+      }
+    }
+  },
+  {
+    "batch_id": 8,
+    "raw_rows": 300,
+    "cleaned_rows": 74,
+    "batch_duration_sec": 1.732,
+    "running_totals": {
+      "missing_corrected": 23,
+      "duplicates_removed": 2246,
+      "invalid_removed": 19,
+      "dropped_insufficient_history": 0,
+      "late_accepted": 0
+    },
+    "analytics": {
+      "per_sensor_avg_max_temperature": {
+        "sensor_9": {
+          "avg_temperature": 24.789,
+          "max_temperature": 34.93,
+          "readings": 81
+        },
+        "sensor_3": {
+          "avg_temperature": 24.683,
+          "max_temperature": 34.94,
+          "readings": 80
+        },
+        "sensor_10": {
+          "avg_temperature": 25.911,
+          "max_temperature": 34.84,
+          "readings": 77
+        },
+        "sensor_4": {
+          "avg_temperature": 23.966,
+          "max_temperature": 34.9,
+          "readings": 75
+        },
+        "sensor_2": {
+          "avg_temperature": 24.303,
+          "max_temperature": 34.08,
+          "readings": 77
+        },
+        "sensor_7": {
+          "avg_temperature": 24.831,
+          "max_temperature": 34.67,
+          "readings": 74
+        },
+        "sensor_6": {
+          "avg_temperature": 25.411,
+          "max_temperature": 34.84,
+          "readings": 75
+        },
+        "sensor_5": {
+          "avg_temperature": 25.085,
+          "max_temperature": 34.82,
+          "readings": 82
+        },
+        "sensor_8": {
+          "avg_temperature": 25.882,
+          "max_temperature": 34.72,
+          "readings": 76
+        },
+        "sensor_1": {
+          "avg_temperature": 26.311,
+          "max_temperature": 34.89,
+          "readings": 77
+        }
+      },
+      "active_sensor_count": 10,
+      "active_sensors": [
+        "sensor_1",
+        "sensor_10",
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_5",
+        "sensor_6",
+        "sensor_7",
+        "sensor_8",
+        "sensor_9"
+      ],
+      "status_distribution": {
+        "active": 555,
+        "maintenance": 39,
+        "error": 59,
+        "idle": 121
+      }
+    }
+  },
+  {
+    "batch_id": 9,
+    "raw_rows": 426,
+    "cleaned_rows": 111,
+    "batch_duration_sec": 1.15,
+    "running_totals": {
+      "missing_corrected": 30,
+      "duplicates_removed": 2558,
+      "invalid_removed": 22,
+      "dropped_insufficient_history": 0,
+      "late_accepted": 0
+    },
+    "analytics": {
+      "per_sensor_avg_max_temperature": {
+        "sensor_9": {
+          "avg_temperature": 24.976,
+          "max_temperature": 34.93,
+          "readings": 91
+        },
+        "sensor_3": {
+          "avg_temperature": 24.738,
+          "max_temperature": 34.94,
+          "readings": 93
+        },
+        "sensor_10": {
+          "avg_temperature": 25.872,
+          "max_temperature": 34.84,
+          "readings": 86
+        },
+        "sensor_4": {
+          "avg_temperature": 24.102,
+          "max_temperature": 34.9,
+          "readings": 85
+        },
+        "sensor_2": {
+          "avg_temperature": 24.298,
+          "max_temperature": 34.08,
+          "readings": 88
+        },
+        "sensor_7": {
+          "avg_temperature": 25.175,
+          "max_temperature": 34.67,
+          "readings": 84
+        },
+        "sensor_6": {
+          "avg_temperature": 25.089,
+          "max_temperature": 34.84,
+          "readings": 87
+        },
+        "sensor_5": {
+          "avg_temperature": 25.067,
+          "max_temperature": 34.82,
+          "readings": 94
+        },
+        "sensor_8": {
+          "avg_temperature": 25.948,
+          "max_temperature": 34.72,
+          "readings": 87
+        },
+        "sensor_1": {
+          "avg_temperature": 26.26,
+          "max_temperature": 34.89,
+          "readings": 90
+        }
+      },
+      "active_sensor_count": 10,
+      "active_sensors": [
+        "sensor_1",
+        "sensor_10",
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_5",
+        "sensor_6",
+        "sensor_7",
+        "sensor_8",
+        "sensor_9"
+      ],
+      "status_distribution": {
+        "active": 635,
+        "maintenance": 45,
+        "error": 68,
+        "idle": 137
+      }
+    }
+  },
+  {
+    "batch_id": 10,
+    "raw_rows": 460,
+    "cleaned_rows": 107,
+    "batch_duration_sec": 1.77,
+    "running_totals": {
+      "missing_corrected": 33,
+      "duplicates_removed": 2908,
+      "invalid_removed": 25,
+      "dropped_insufficient_history": 0,
+      "late_accepted": 0
+    },
+    "analytics": {
+      "per_sensor_avg_max_temperature": {
+        "sensor_9": {
+          "avg_temperature": 24.958,
+          "max_temperature": 34.93,
+          "readings": 100
+        },
+        "sensor_3": {
+          "avg_temperature": 24.947,
+          "max_temperature": 34.94,
+          "readings": 104
+        },
+        "sensor_10": {
+          "avg_temperature": 25.189,
+          "max_temperature": 34.84,
+          "readings": 99
+        },
+        "sensor_4": {
+          "avg_temperature": 24.033,
+          "max_temperature": 34.9,
+          "readings": 94
+        },
+        "sensor_2": {
+          "avg_temperature": 24.244,
+          "max_temperature": 34.72,
+          "readings": 99
+        },
+        "sensor_7": {
+          "avg_temperature": 25.173,
+          "max_temperature": 34.67,
+          "readings": 94
+        },
+        "sensor_6": {
+          "avg_temperature": 25.253,
+          "max_temperature": 34.84,
+          "readings": 97
+        },
+        "sensor_5": {
+          "avg_temperature": 25.271,
+          "max_temperature": 34.82,
+          "readings": 108
+        },
+        "sensor_8": {
+          "avg_temperature": 26.012,
+          "max_temperature": 34.72,
+          "readings": 97
+        },
+        "sensor_1": {
+          "avg_temperature": 26.258,
+          "max_temperature": 34.89,
+          "readings": 100
+        }
+      },
+      "active_sensor_count": 10,
+      "active_sensors": [
+        "sensor_1",
+        "sensor_10",
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_5",
+        "sensor_6",
+        "sensor_7",
+        "sensor_8",
+        "sensor_9"
+      ],
+      "status_distribution": {
+        "active": 716,
+        "maintenance": 50,
+        "error": 73,
+        "idle": 153
+      }
+    }
+  },
+  {
+    "batch_id": 11,
+    "raw_rows": 314,
+    "cleaned_rows": 82,
+    "batch_duration_sec": 1.961,
+    "running_totals": {
+      "missing_corrected": 38,
+      "duplicates_removed": 3139,
+      "invalid_removed": 26,
+      "dropped_insufficient_history": 0,
+      "late_accepted": 0
+    },
+    "analytics": {
+      "per_sensor_avg_max_temperature": {
+        "sensor_9": {
+          "avg_temperature": 25.004,
+          "max_temperature": 34.93,
+          "readings": 108
+        },
+        "sensor_3": {
+          "avg_temperature": 24.905,
+          "max_temperature": 34.94,
+          "readings": 114
+        },
+        "sensor_10": {
+          "avg_temperature": 24.998,
+          "max_temperature": 34.92,
+          "readings": 107
+        },
+        "sensor_4": {
+          "avg_temperature": 24.394,
+          "max_temperature": 34.9,
+          "readings": 104
+        },
+        "sensor_2": {
+          "avg_temperature": 24.156,
+          "max_temperature": 34.72,
+          "readings": 106
+        },
+        "sensor_7": {
+          "avg_temperature": 24.946,
+          "max_temperature": 34.85,
+          "readings": 101
+        },
+        "sensor_6": {
+          "avg_temperature": 25.476,
+          "max_temperature": 34.84,
+          "readings": 104
+        },
+        "sensor_5": {
+          "avg_temperature": 25.23,
+          "max_temperature": 34.82,
+          "readings": 115
+        },
+        "sensor_8": {
+          "avg_temperature": 25.482,
+          "max_temperature": 34.72,
+          "readings": 106
+        },
+        "sensor_1": {
+          "avg_temperature": 26.336,
+          "max_temperature": 34.89,
+          "readings": 109
+        }
+      },
+      "active_sensor_count": 10,
+      "active_sensors": [
+        "sensor_1",
+        "sensor_10",
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_5",
+        "sensor_6",
+        "sensor_7",
+        "sensor_8",
+        "sensor_9"
+      ],
+      "status_distribution": {
+        "active": 771,
+        "maintenance": 53,
+        "error": 80,
+        "idle": 170
+      }
+    }
+  },
+  {
+    "batch_id": 12,
+    "raw_rows": 341,
+    "cleaned_rows": 83,
+    "batch_duration_sec": 0.983,
+    "running_totals": {
+      "missing_corrected": 45,
+      "duplicates_removed": 3396,
+      "invalid_removed": 27,
+      "dropped_insufficient_history": 0,
+      "late_accepted": 0
+    },
+    "analytics": {
+      "per_sensor_avg_max_temperature": {
+        "sensor_9": {
+          "avg_temperature": 25.14,
+          "max_temperature": 34.93,
+          "readings": 116
+        },
+        "sensor_3": {
+          "avg_temperature": 24.922,
+          "max_temperature": 34.94,
+          "readings": 124
+        },
+        "sensor_10": {
+          "avg_temperature": 25.166,
+          "max_temperature": 34.92,
+          "readings": 115
+        },
+        "sensor_4": {
+          "avg_temperature": 24.377,
+          "max_temperature": 34.9,
+          "readings": 115
+        },
+        "sensor_2": {
+          "avg_temperature": 24.289,
+          "max_temperature": 34.98,
+          "readings": 114
+        },
+        "sensor_7": {
+          "avg_temperature": 24.978,
+          "max_temperature": 34.85,
+          "readings": 108
+        },
+        "sensor_6": {
+          "avg_temperature": 25.458,
+          "max_temperature": 34.84,
+          "readings": 112
+        },
+        "sensor_5": {
+          "avg_temperature": 25.158,
+          "max_temperature": 34.82,
+          "readings": 124
+        },
+        "sensor_8": {
+          "avg_temperature": 25.444,
+          "max_temperature": 34.72,
+          "readings": 112
+        },
+        "sensor_1": {
+          "avg_temperature": 26.458,
+          "max_temperature": 34.89,
+          "readings": 117
+        }
+      },
+      "active_sensor_count": 10,
+      "active_sensors": [
+        "sensor_1",
+        "sensor_10",
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_5",
+        "sensor_6",
+        "sensor_7",
+        "sensor_8",
+        "sensor_9"
+      ],
+      "status_distribution": {
+        "active": 831,
+        "maintenance": 56,
+        "error": 87,
+        "idle": 183
+      }
+    }
+  },
+  {
+    "batch_id": 13,
+    "raw_rows": 464,
+    "cleaned_rows": 130,
+    "batch_duration_sec": 1.209,
+    "running_totals": {
+      "missing_corrected": 52,
+      "duplicates_removed": 3729,
+      "invalid_removed": 28,
+      "dropped_insufficient_history": 0,
+      "late_accepted": 0
+    },
+    "analytics": {
+      "per_sensor_avg_max_temperature": {
+        "sensor_9": {
+          "avg_temperature": 25.168,
+          "max_temperature": 34.93,
+          "readings": 127
+        },
+        "sensor_3": {
+          "avg_temperature": 25.101,
+          "max_temperature": 34.94,
+          "readings": 138
+        },
+        "sensor_10": {
+          "avg_temperature": 25.197,
+          "max_temperature": 34.92,
+          "readings": 126
+        },
+        "sensor_4": {
+          "avg_temperature": 24.465,
+          "max_temperature": 34.9,
+          "readings": 127
+        },
+        "sensor_2": {
+          "avg_temperature": 24.36,
+          "max_temperature": 34.98,
+          "readings": 128
+        },
+        "sensor_7": {
+          "avg_temperature": 25.178,
+          "max_temperature": 34.85,
+          "readings": 120
+        },
+        "sensor_6": {
+          "avg_temperature": 25.512,
+          "max_temperature": 34.84,
+          "readings": 128
+        },
+        "sensor_5": {
+          "avg_temperature": 25.097,
+          "max_temperature": 34.82,
+          "readings": 137
+        },
+        "sensor_8": {
+          "avg_temperature": 25.344,
+          "max_temperature": 34.72,
+          "readings": 125
+        },
+        "sensor_1": {
+          "avg_temperature": 26.533,
+          "max_temperature": 34.89,
+          "readings": 131
+        }
+      },
+      "active_sensor_count": 10,
+      "active_sensors": [
+        "sensor_1",
+        "sensor_10",
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_5",
+        "sensor_6",
+        "sensor_7",
+        "sensor_8",
+        "sensor_9"
+      ],
+      "status_distribution": {
+        "active": 915,
+        "maintenance": 65,
+        "error": 99,
+        "idle": 208
+      }
+    }
+  },
+  {
+    "batch_id": 14,
+    "raw_rows": 395,
+    "cleaned_rows": 100,
+    "batch_duration_sec": 1.769,
+    "running_totals": {
+      "missing_corrected": 55,
+      "duplicates_removed": 4022,
+      "invalid_removed": 30,
+      "dropped_insufficient_history": 0,
+      "late_accepted": 0
+    },
+    "analytics": {
+      "per_sensor_avg_max_temperature": {
+        "sensor_9": {
+          "avg_temperature": 25.348,
+          "max_temperature": 34.93,
+          "readings": 136
+        },
+        "sensor_3": {
+          "avg_temperature": 24.955,
+          "max_temperature": 34.94,
+          "readings": 148
+        },
+        "sensor_10": {
+          "avg_temperature": 25.284,
+          "max_temperature": 34.92,
+          "readings": 136
+        },
+        "sensor_4": {
+          "avg_temperature": 24.433,
+          "max_temperature": 34.9,
+          "readings": 136
+        },
+        "sensor_2": {
+          "avg_temperature": 24.417,
+          "max_temperature": 34.98,
+          "readings": 136
+        },
+        "sensor_7": {
+          "avg_temperature": 25.201,
+          "max_temperature": 34.85,
+          "readings": 131
+        },
+        "sensor_6": {
+          "avg_temperature": 25.516,
+          "max_temperature": 34.84,
+          "readings": 140
+        },
+        "sensor_5": {
+          "avg_temperature": 25.119,
+          "max_temperature": 34.82,
+          "readings": 147
+        },
+        "sensor_8": {
+          "avg_temperature": 25.104,
+          "max_temperature": 34.72,
+          "readings": 137
+        },
+        "sensor_1": {
+          "avg_temperature": 26.48,
+          "max_temperature": 34.89,
+          "readings": 140
+        }
+      },
+      "active_sensor_count": 10,
+      "active_sensors": [
+        "sensor_1",
+        "sensor_10",
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_5",
+        "sensor_6",
+        "sensor_7",
+        "sensor_8",
+        "sensor_9"
+      ],
+      "status_distribution": {
+        "active": 986,
+        "maintenance": 71,
+        "error": 107,
+        "idle": 223
+      }
+    }
+  },
+  {
+    "batch_id": 15,
+    "raw_rows": 300,
+    "cleaned_rows": 76,
+    "batch_duration_sec": 1.699,
+    "running_totals": {
+      "missing_corrected": 57,
+      "duplicates_removed": 4246,
+      "invalid_removed": 30,
+      "dropped_insufficient_history": 0,
+      "late_accepted": 0
+    },
+    "analytics": {
+      "per_sensor_avg_max_temperature": {
+        "sensor_9": {
+          "avg_temperature": 25.515,
+          "max_temperature": 34.93,
+          "readings": 144
+        },
+        "sensor_3": {
+          "avg_temperature": 24.849,
+          "max_temperature": 34.94,
+          "readings": 155
+        },
+        "sensor_10": {
+          "avg_temperature": 25.297,
+          "max_temperature": 34.92,
+          "readings": 144
+        },
+        "sensor_4": {
+          "avg_temperature": 24.39,
+          "max_temperature": 34.9,
+          "readings": 144
+        },
+        "sensor_2": {
+          "avg_temperature": 24.391,
+          "max_temperature": 34.98,
+          "readings": 143
+        },
+        "sensor_7": {
+          "avg_temperature": 25.184,
+          "max_temperature": 34.85,
+          "readings": 140
+        },
+        "sensor_6": {
+          "avg_temperature": 25.544,
+          "max_temperature": 34.84,
+          "readings": 147
+        },
+        "sensor_5": {
+          "avg_temperature": 25.062,
+          "max_temperature": 34.82,
+          "readings": 155
+        },
+        "sensor_8": {
+          "avg_temperature": 25.008,
+          "max_temperature": 34.72,
+          "readings": 143
+        },
+        "sensor_1": {
+          "avg_temperature": 26.436,
+          "max_temperature": 34.89,
+          "readings": 148
+        }
+      },
+      "active_sensor_count": 10,
+      "active_sensors": [
+        "sensor_1",
+        "sensor_10",
+        "sensor_2",
+        "sensor_3",
+        "sensor_4",
+        "sensor_5",
+        "sensor_6",
+        "sensor_7",
+        "sensor_8",
+        "sensor_9"
+      ],
+      "status_distribution": {
+        "active": 1041,
+        "maintenance": 71,
+        "error": 119,
+        "idle": 232
+      }
+    }
+  }
+]

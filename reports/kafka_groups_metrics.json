@@ -1,0 +1,18 @@
+{
+  "group_beta": {
+    "count": 3000,
+    "partitions": {
+      "0": 1464,
+      "2": 1536
+    },
+    "elapsed_sec": 15.194827795028687
+  },
+  "group_alpha": {
+    "count": 3000,
+    "partitions": {
+      "2": 1536,
+      "0": 1464
+    },
+    "elapsed_sec": 15.295797348022461
+  }
+}

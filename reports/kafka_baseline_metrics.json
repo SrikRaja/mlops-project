@@ -1,0 +1,10 @@
+{
+  "records_produced": 3000,
+  "producer_throughput_rps": 96.8037319803724,
+  "records_consumed": 3000,
+  "consumer_throughput_rps": 147.609544486054,
+  "per_partition_counts": {
+    "0": 1472,
+    "2": 1528
+  }
+}

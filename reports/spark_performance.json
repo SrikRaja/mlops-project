@@ -1,0 +1,474 @@
+{
+  "cleaning_query_progress": [
+    {
+      "batchId": 0,
+      "inputRowsPerSecond": 0.0,
+      "processedRowsPerSecond": 0.4306323117777937,
+      "durationMs": {
+        "triggerExecution": 27859,
+        "queryPlanning": 1428,
+        "getBatch": 124,
+        "commitOffsets": 265,
+        "latestOffset": 3053,
+        "addBatch": 22654,
+        "walCommit": 248
+      }
+    },
+    {
+      "batchId": 1,
+      "inputRowsPerSecond": 20.698066506439,
+      "processedRowsPerSecond": 107.64925373134328,
+      "durationMs": {
+        "triggerExecution": 5360,
+        "queryPlanning": 95,
+        "getBatch": 1,
+        "commitOffsets": 835,
+        "latestOffset": 30,
+        "addBatch": 4077,
+        "walCommit": 291
+      }
+    },
+    {
+      "batchId": 2,
+      "inputRowsPerSecond": 18.94692766670156,
+      "processedRowsPerSecond": 48.852901484480434,
+      "durationMs": {
+        "triggerExecution": 3705,
+        "queryPlanning": 64,
+        "getBatch": 1,
+        "commitOffsets": 800,
+        "latestOffset": 19,
+        "addBatch": 1908,
+        "walCommit": 897
+      }
+    },
+    {
+      "batchId": 3,
+      "inputRowsPerSecond": 30.333333333333332,
+      "processedRowsPerSecond": 177.52633632461956,
+      "durationMs": {
+        "triggerExecution": 2563,
+        "queryPlanning": 43,
+        "getBatch": 2,
+        "commitOffsets": 377,
+        "latestOffset": 8,
+        "addBatch": 2029,
+        "walCommit": 96
+      }
+    },
+    {
+      "batchId": 4,
+      "inputRowsPerSecond": 20.933333333333334,
+      "processedRowsPerSecond": 117.12047743379335,
+      "durationMs": {
+        "triggerExecution": 2681,
+        "queryPlanning": 59,
+        "getBatch": 1,
+        "commitOffsets": 226,
+        "latestOffset": 12,
+        "addBatch": 2215,
+        "walCommit": 155
+      }
+    },
+    {
+      "batchId": 5,
+      "inputRowsPerSecond": 23.333333333333332,
+      "processedRowsPerSecond": 174.82517482517486,
+      "durationMs": {
+        "triggerExecution": 2002,
+        "queryPlanning": 50,
+        "getBatch": 1,
+        "commitOffsets": 379,
+        "latestOffset": 12,
+        "addBatch": 1428,
+        "walCommit": 127
+      }
+    },
+    {
+      "batchId": 6,
+      "inputRowsPerSecond": 30.533333333333335,
+      "processedRowsPerSecond": 316.73582295988933,
+      "durationMs": {
+        "triggerExecution": 1446,
+        "queryPlanning": 50,
+        "getBatch": 0,
+        "commitOffsets": 244,
+        "latestOffset": 8,
+        "addBatch": 1017,
+        "walCommit": 123
+      }
+    },
+    {
+      "batchId": 7,
+      "inputRowsPerSecond": 26.133333333333333,
+      "processedRowsPerSecond": 168.09605488850772,
+      "durationMs": {
+        "triggerExecution": 2332,
+        "queryPlanning": 41,
+        "getBatch": 1,
+        "commitOffsets": 219,
+        "latestOffset": 7,
+        "addBatch": 1881,
+        "walCommit": 181
+      }
+    },
+    {
+      "batchId": 8,
+      "inputRowsPerSecond": 20.0,
+      "processedRowsPerSecond": 128.81064834693,
+      "durationMs": {
+        "triggerExecution": 2329,
+        "queryPlanning": 33,
+        "getBatch": 0,
+        "commitOffsets": 333,
+        "latestOffset": 13,
+        "addBatch": 1829,
+        "walCommit": 116
+      }
+    },
+    {
+      "batchId": 9,
+      "inputRowsPerSecond": 28.4,
+      "processedRowsPerSecond": 201.41843971631204,
+      "durationMs": {
+        "triggerExecution": 2115,
+        "queryPlanning": 98,
+        "getBatch": 0,
+        "commitOffsets": 484,
+        "latestOffset": 7,
+        "addBatch": 1302,
+        "walCommit": 208
+      }
+    },
+    {
+      "batchId": 10,
+      "inputRowsPerSecond": 30.666666666666668,
+      "processedRowsPerSecond": 185.11066398390344,
+      "durationMs": {
+        "triggerExecution": 2484,
+        "queryPlanning": 50,
+        "getBatch": 0,
+        "commitOffsets": 313,
+        "latestOffset": 6,
+        "addBatch": 1884,
+        "walCommit": 228
+      }
+    },
+    {
+      "batchId": 11,
+      "inputRowsPerSecond": 20.933333333333334,
+      "processedRowsPerSecond": 123.08898471187769,
+      "durationMs": {
+        "triggerExecution": 2551,
+        "queryPlanning": 32,
+        "getBatch": 1,
+        "commitOffsets": 371,
+        "latestOffset": 6,
+        "addBatch": 2025,
+        "walCommit": 114
+      }
+    },
+    {
+      "batchId": 12,
+      "inputRowsPerSecond": 22.733333333333334,
+      "processedRowsPerSecond": 227.33333333333334,
+      "durationMs": {
+        "triggerExecution": 1500,
+        "queryPlanning": 30,
+        "getBatch": 1,
+        "commitOffsets": 254,
+        "latestOffset": 8,
+        "addBatch": 1046,
+        "walCommit": 156
+      }
+    },
+    {
+      "batchId": 13,
+      "inputRowsPerSecond": 30.933333333333334,
+      "processedRowsPerSecond": 259.07314349525404,
+      "durationMs": {
+        "triggerExecution": 1791,
+        "queryPlanning": 22,
+        "getBatch": 1,
+        "commitOffsets": 315,
+        "latestOffset": 10,
+        "addBatch": 1328,
+        "walCommit": 112
+      }
+    },
+    {
+      "batchId": 14,
+      "inputRowsPerSecond": 26.333333333333332,
+      "processedRowsPerSecond": 163.4933774834437,
+      "durationMs": {
+        "triggerExecution": 2416,
+        "queryPlanning": 36,
+        "getBatch": 0,
+        "commitOffsets": 384,
+        "latestOffset": 6,
+        "addBatch": 1865,
+        "walCommit": 123
+      }
+    },
+    {
+      "batchId": 15,
+      "inputRowsPerSecond": 19.998666755549632,
+      "processedRowsPerSecond": 130.66202090592336,
+      "durationMs": {
+        "triggerExecution": 2296,
+        "queryPlanning": 57,
+        "getBatch": 0,
+        "commitOffsets": 298,
+        "latestOffset": 5,
+        "addBatch": 1838,
+        "walCommit": 95
+      }
+    }
+  ],
+  "windowed_query_progress": [
+    {
+      "batchId": 0,
+      "inputRowsPerSecond": 0.0,
+      "processedRowsPerSecond": 0.444642063139173,
+      "durationMs": {
+        "triggerExecution": 20241,
+        "queryPlanning": 1553,
+        "getBatch": 104,
+        "commitOffsets": 232,
+        "latestOffset": 1965,
+        "addBatch": 15885,
+        "walCommit": 277
+      }
+    },
+    {
+      "batchId": 1,
+      "inputRowsPerSecond": 16.141655253375074,
+      "processedRowsPerSecond": 29.546065001343003,
+      "durationMs": {
+        "triggerExecution": 11169,
+        "queryPlanning": 609,
+        "getBatch": 1,
+        "commitOffsets": 857,
+        "latestOffset": 29,
+        "addBatch": 9301,
+        "walCommit": 329
+      }
+    },
+    {
+      "batchId": 2,
+      "inputRowsPerSecond": 26.850443032310032,
+      "processedRowsPerSecond": 44.1306266548985,
+      "durationMs": {
+        "triggerExecution": 6798,
+        "queryPlanning": 156,
+        "getBatch": 4,
+        "commitOffsets": 836,
+        "latestOffset": 23,
+        "addBatch": 4938,
+        "walCommit": 837
+      }
+    },
+    {
+      "batchId": 3,
+      "inputRowsPerSecond": 33.5195530726257,
+      "processedRowsPerSecond": 34.3476950888822,
+      "durationMs": {
+        "triggerExecution": 6638,
+        "queryPlanning": 231,
+        "getBatch": 3,
+        "commitOffsets": 689,
+        "latestOffset": 49,
+        "addBatch": 4828,
+        "walCommit": 837
+      }
+    },
+    {
+      "batchId": 4,
+      "inputRowsPerSecond": 27.760545905707193,
+      "processedRowsPerSecond": 71.68602322787345,
+      "durationMs": {
+        "triggerExecution": 4994,
+        "queryPlanning": 107,
+        "getBatch": 0,
+        "commitOffsets": 595,
+        "latestOffset": 10,
+        "addBatch": 4160,
+        "walCommit": 119
+      }
+    },
+    {
+      "batchId": 5,
+      "inputRowsPerSecond": 20.93472898193213,
+      "processedRowsPerSecond": 82.41469816272966,
+      "durationMs": {
+        "triggerExecution": 3810,
+        "queryPlanning": 198,
+        "getBatch": 0,
+        "commitOffsets": 292,
+        "latestOffset": 10,
+        "addBatch": 3141,
+        "walCommit": 167
+      }
+    },
+    {
+      "batchId": 6,
+      "inputRowsPerSecond": 23.33177788147457,
+      "processedRowsPerSecond": 91.98423127463863,
+      "durationMs": {
+        "triggerExecution": 3805,
+        "queryPlanning": 147,
+        "getBatch": 0,
+        "commitOffsets": 311,
+        "latestOffset": 5,
+        "addBatch": 3190,
+        "walCommit": 151
+      }
+    },
+    {
+      "batchId": 7,
+      "inputRowsPerSecond": 30.53536902460164,
+      "processedRowsPerSecond": 127.01053799223517,
+      "durationMs": {
+        "triggerExecution": 3606,
+        "queryPlanning": 76,
+        "getBatch": 0,
+        "commitOffsets": 689,
+        "latestOffset": 6,
+        "addBatch": 2704,
+        "walCommit": 129
+      }
+    },
+    {
+      "batchId": 8,
+      "inputRowsPerSecond": 26.13159122725152,
+      "processedRowsPerSecond": 108.94941634241246,
+      "durationMs": {
+        "triggerExecution": 3598,
+        "queryPlanning": 102,
+        "getBatch": 0,
+        "commitOffsets": 491,
+        "latestOffset": 7,
+        "addBatch": 2806,
+        "walCommit": 191
+      }
+    },
+    {
+      "batchId": 9,
+      "inputRowsPerSecond": 20.001333422228146,
+      "processedRowsPerSecond": 78.41087297438578,
+      "durationMs": {
+        "triggerExecution": 3826,
+        "queryPlanning": 194,
+        "getBatch": 1,
+        "commitOffsets": 454,
+        "latestOffset": 6,
+        "addBatch": 2996,
+        "walCommit": 173
+      }
+    },
+    {
+      "batchId": 10,
+      "inputRowsPerSecond": 28.398106792880476,
+      "processedRowsPerSecond": 112.69841269841271,
+      "durationMs": {
+        "triggerExecution": 3780,
+        "queryPlanning": 192,
+        "getBatch": 8,
+        "commitOffsets": 506,
+        "latestOffset": 11,
+        "addBatch": 2844,
+        "walCommit": 218
+      }
+    },
+    {
+      "batchId": 11,
+      "inputRowsPerSecond": 30.668711247416493,
+      "processedRowsPerSecond": 131.57894736842104,
+      "durationMs": {
+        "triggerExecution": 3496,
+        "queryPlanning": 188,
+        "getBatch": 0,
+        "commitOffsets": 328,
+        "latestOffset": 5,
+        "addBatch": 2792,
+        "walCommit": 183
+      }
+    },
+    {
+      "batchId": 12,
+      "inputRowsPerSecond": 20.931937870808614,
+      "processedRowsPerSecond": 86.16904500548847,
+      "durationMs": {
+        "triggerExecution": 3644,
+        "queryPlanning": 93,
+        "getBatch": 3,
+        "commitOffsets": 344,
+        "latestOffset": 4,
+        "addBatch": 3099,
+        "walCommit": 100
+      }
+    },
+    {
+      "batchId": 13,
+      "inputRowsPerSecond": 22.73484898993266,
+      "processedRowsPerSecond": 111.69341631182444,
+      "durationMs": {
+        "triggerExecution": 3053,
+        "queryPlanning": 80,
+        "getBatch": 1,
+        "commitOffsets": 489,
+        "latestOffset": 8,
+        "addBatch": 2353,
+        "walCommit": 119
+      }
+    },
+    {
+      "batchId": 14,
+      "inputRowsPerSecond": 30.933333333333334,
+      "processedRowsPerSecond": 115.10791366906476,
+      "durationMs": {
+        "triggerExecution": 4031,
+        "queryPlanning": 93,
+        "getBatch": 2,
+        "commitOffsets": 601,
+        "latestOffset": 15,
+        "addBatch": 3211,
+        "walCommit": 103
+      }
+    },
+    {
+      "batchId": 15,
+      "inputRowsPerSecond": 26.333333333333332,
+      "processedRowsPerSecond": 108.51648351648352,
+      "durationMs": {
+        "triggerExecution": 3640,
+        "queryPlanning": 130,
+        "getBatch": 1,
+        "commitOffsets": 129,
+        "latestOffset": 6,
+        "addBatch": 3258,
+        "walCommit": 114
+      }
+    },
+    {
+      "batchId": 16,
+      "inputRowsPerSecond": 20.0,
+      "processedRowsPerSecond": 96.4940495336121,
+      "durationMs": {
+        "triggerExecution": 3109,
+        "queryPlanning": 80,
+        "getBatch": 1,
+        "commitOffsets": 640,
+        "latestOffset": 6,
+        "addBatch": 2186,
+        "walCommit": 194
+      }
+    }
+  ],
+  "state_store_snapshot_windowed_query": {
+    "numRowsTotal": 1306,
+    "numRowsUpdated": 67,
+    "memoryUsedBytes": 359448,
+    "numRowsDroppedByWatermark": 9
+  }
+}
